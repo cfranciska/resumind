@@ -47,10 +47,10 @@ def extract_text_from_pdf(file):
 # --- Tool untuk cari kandidat relevan (FINAL & FILTERED) ---
 @tool
 def get_relevant_docs(query: str, category_filter: str = None):
-    """Cari kandidat relevan (resume) dari database Qdrant berdasarkan deskripsi posisi atau pertanyaan, dengan opsi category_filter. WAJIB gunakan category_filter saat Anda mengidentifikasi KATEGORI/INDUSTRI dari pertanyaan pengguna (misalnya: 'HR', 'IT', 'SALES')."""
+    """Cari relevan resume dari database Qdrant berdasarkan deskripsi posisi pekerjaan atau pertanyaan terkait jabatan kerja, dengan opsi category_filter. Gunakan category_filter saat Anda mengidentifikasi KATEGORI/INDUSTRI dari pertanyaan pengguna (misalnya: 'HR', 'IT', 'SALES')."""
     
     # 1. Buat Query Kontekstual
-    contextual_query = f"Carikan contoh resume, CV, dan kriteria kandidat yang paling relevan untuk pertanyaan di: {query}"
+    contextual_query = f"Carikan contoh resume, CV, dan kriteria kandidat yang paling relevan untuk pertanyaan ini: {query}"
     
     # 2. Siapkan Filter Qdrant 
     qdrant_filter = None
