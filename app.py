@@ -248,4 +248,4 @@ if st.button("Kirim"):
 st.markdown("""
 Tips:
 - Pengguna chatbot bisa bertanya lebih dalam soal satu pekerjaan, membandingkan pekerjaan, dan atau mengunggah file dalam bentuk pdf untuk melakukan penilaian apakah kandidat itu sesuai atau tidak. 
-- Jika jawaban chatbot tidak sesuai, masukan kata kunci seperti 'posisi' atau 'pekerjaan' agar chatbot mengenali bahwa pertanyaan adalah terkait dengan resume. Contoh: 'apa skill utama yang harus dimiliki chef?' Ganti pertanyaan ini menjadi 'Chef adalah pekerjaan, skill apa yang dia perlukan?'""")
+- Jika jawaban chatbot tidak sesuai, masukan kata kunci seperti 'posisi' atau 'pekerjaan' atau konteks yang lebih lengkap agar chatbot mengenali bahwa pertanyaan tersebut adalah terkait dengan resume atau keahlian sebuah posisi kerja. Contoh: 'apa skill utama yang harus dimiliki chef?' Ganti pertanyaan ini menjadi 'Chef adalah pekerjaan, skill apa yang dia miliki supaya bisa diterima di sebuah restoran?'""")
