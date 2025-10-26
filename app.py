@@ -244,3 +244,8 @@ if st.button("Kirim"):
                 f'Output Tokens: {output_tokens}\n'
                 f'Price (Approx): Rp {price_idr:,.2f}'
             )
+
+st.markdown("""
+Tips:
+- Pengguna chatbot bisa bertanya lebih dalam soal satu pekerjaan, membandingkan pekerjaan, dan atau mengunggah file dalam bentuk pdf untuk melakukan penilaian apakah kandidat itu sesuai atau tidak. 
+- Jika jawaban chatbot tidak sesuai, masukan kata kunci seperti 'posisi' atau 'pekerjaan' agar chatbot mengenali bahwa pertanyaan adalah terkait dengan resume. Contoh: 'apa skill utama yang harus dimiliki chef?' Ganti pertanyaan ini menjadi 'Chef adalah pekerjaan, skill apa yang dia perlukan?'""")
