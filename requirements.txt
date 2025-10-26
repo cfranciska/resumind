@@ -4,3 +4,5 @@ qdrant-client
 PyPDF2
 pandas
 numpy
+langchain
+langchain-openai
